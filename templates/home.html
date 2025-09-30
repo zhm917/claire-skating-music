@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Skating Music App</title>
+    <style>
+      h1 {
+        font-size: 40px;
+        font-family: Roboto, sans-serif;
+        font-weight: normal;
+        color:rgb(50, 50, 50);
+        text-align: center;
+      }
+      #banner {
+        border-radius: 10px;
+      }
+      h2 {
+        font-size: 30px;
+        font-family: Roboto, sans-serif;
+        font-weight: normal;
+        color:rgb(100, 100, 100);
+        text-align: center;
+      }
+    </style>
 </head>
 <body>
     <h1>Welcome to My Skating Music Website!</h1>
-    <img src="/static/skating-jump.jpg" alt="Skating Image" style="width:300px;height:auto;">
+    <img id="banner" src="/static/skating-jump.jpg" alt="Skating Image" style="width:300px;height:auto;">
+    <br>
+    <h2>Find Your Rhythm</h2>
+    <p>Explore our curated playlists for the best skating vibes.</p>
+    <br>
+    <button onclick="location.href='/playlists'">View Playlists</button>
     <p>Find the perfect music for your skating sessions.</p>
+    <button>Contact Me</button>
 </body>
 </html>
