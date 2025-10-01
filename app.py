@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 Skaters = [
       {'name': 'Jessy', 'music': 'Classical Symphony'},
-      {'name': 'Maya', 'music': 'Song B'},
+      {'name': 'Maia', 'music': 'Song B'},
       {'name': 'Franny', 'music': 'Song C'}
 ]
 
